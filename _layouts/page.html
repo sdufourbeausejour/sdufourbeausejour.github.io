@@ -11,10 +11,12 @@ layout: default
 					{% if page.url == '/' %}
 					{% if site.logo %}
 					<img src= "{{ site.logo }}" style="height: 150px">
-					{% endif %}	
-					{% else %}{% endif %}	
-                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-                    <hr class="small">
+					{% endif %}
+					{% else %}{% endif %}
+                    <!-- Title shown big and center -->
+                    <h2>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h2>
+                    <!-- <hr class="small"> -->
+                    <!-- <span class="subheading">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</span> -->
                     <span class="subheading">{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</span>
                 </div>
             </div>
