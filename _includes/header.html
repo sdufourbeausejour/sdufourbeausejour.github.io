@@ -1,10 +1,8 @@
 <header class="site-header" role="banner">
-
   <div class="wrapper">
+    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
-    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-
     {% if page_paths %}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -19,11 +17,11 @@
         </label>
 
         <div class="trigger">
-          <!-- Sort pages by order, only show pages that have show_in_nav set to 1 -->
+          <!-- Sort pages by order, only show pages that have show_in_nav -->
           {% assign sorted_pages = site.pages | sort:"order" %}
           {% for page in sorted_pages %}
             {% if page.title %}
-              {% if page.show_in_nav == 1 %}
+              {% if page.show_in_nav %}
                 <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
               {% endif %}
             {% endif %}

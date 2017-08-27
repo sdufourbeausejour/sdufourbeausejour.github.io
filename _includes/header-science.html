@@ -19,11 +19,11 @@
         </label>
 
         <div class="trigger">
-          <!-- Sort pages by order, only show pages that have show_in_nav_science set to 1 -->
+          <!-- Sort pages by order, only show pages that have show_in_nav_science -->
           {% assign sorted_pages = site.pages | sort:"order" %}
           {% for page in sorted_pages %}
             {% if page.title %}
-              {% if page.show_in_nav_science == 1 %}
+              {% if page.show_in_nav_science %}
                 <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
               {% endif %}
             {% endif %}
