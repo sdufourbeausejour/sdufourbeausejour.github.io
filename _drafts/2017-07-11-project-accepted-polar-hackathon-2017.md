@@ -2,7 +2,8 @@
 layout: post
 title:  "My project's been selected for the Polar Hackathon 2017 !"
 date:   2017-07-11 12:55:21 -0400
-categories: conference
+categories: science
+tags: conference northern workshop code project
 ---
 Catching up on my polar research news ([Cryolist][Cryolist] and [ArcticInfo][ArcticInfo]), this call for proposals to the [Polar High Performance Computing Workshop and Hackathon][PolarHackathon-Post] caught my eye :
 >This workshop and hackathon is open to polar scientists who would like to increase their computing knowledge and abilities related to a specific problem during the hackathon or through general training during the workshop.

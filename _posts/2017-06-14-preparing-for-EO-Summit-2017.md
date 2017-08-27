@@ -2,7 +2,8 @@
 layout: post
 title:  "Preparing for the Earth Observation Summit 2017"
 date:   2017-06-14 12:55:21 -0400
-categories: conference
+categories: science
+tags: conference talk remote-sensing ice-monitoring
 ---
 Summer time is conference time! I'll be in Montreal (Canada) next week for the [Earth Observation Summit 2017][EOSummit17-page]. Suprisingly, this will be
 my first remote sensing conference. I've mostly been attending northern research events. The EO Summit is a good place to start, as it will combine three yearly meetings : the Canadian Symposium on Remote Sensing ([CSRS][CSRS]), the Congress of the Association Québécoise de Télédétection ([AQT][AQT]) and the Advanced SAR ([ASAR][ASAR]) Workshop.
