@@ -2,5 +2,5 @@
 layout: page
 title: " "
 permalink: /
-show_in_nav : 0
+show_in_nav : false
 ---
