@@ -2,13 +2,7 @@
   <!-- Title-->
   <div class="wrapper">
     <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-  </div>
-
-  <!-- Header image-->
-  <div class="site-header-image-science"></div>
-
-  <!-- Nav bar-->
-  <div class="wrapper">
+    <!-- Nav bar-->
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
     {% if page_paths %}
@@ -23,7 +17,6 @@
             </svg>
           </span>
         </label>
-
         <div class="trigger">
           <!-- Sort pages by order, only show pages that have show_in_nav_science -->
           {% assign sorted_pages = site.pages | sort:"order" %}
@@ -44,4 +37,8 @@
       </nav>
     {% endif %}
   </div>
+  <!-- Header image-->
+  <div class="site-header-image-science"></div>
+
+
 </header>
