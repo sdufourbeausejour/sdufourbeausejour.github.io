@@ -1,13 +1,44 @@
 /**
  * Site header
  */
-.site-header {
-  border-top: 5px solid $white;
-  border-bottom: 1px solid $grey-color-light;
-  min-height: $spacing-unit * 1.865;
+ .site-header {
+   border-bottom: 1px solid $grey-color-light;
+   //min-height: $spacing-unit * 1.865;
+   min-height: 200px;
+   // Positioning context for the mobile navigation icon
+   position: relative;
 
+   // Image as background
+   //background: url(/img/cloud.jpg);
+   //background-position: center -100px;
+   //background-repeat: no-repeat;
+   //background-size: 1800px 400px;
+ }
+ .site-header-radio {
+   //border-bottom: 1px solid $grey-color-light;
+   //min-height: $spacing-unit * 1.865;
+   min-height: 250px;
+   // Positioning context for the mobile navigation icon
+   position: relative;
+
+   // Image as background
+   background: url(/img/les-simones-zine.jpg);
+   background-position: center -300px;
+   background-repeat: no-repeat;
+   background-size: 1100px ;
+ }
+.site-header-science {
+  //border-bottom: 1px solid $grey-color-light;
+  //min-height: $spacing-unit * 1.865;
+  min-height: 250px;
   // Positioning context for the mobile navigation icon
   position: relative;
+
+  // Image as background
+  background: url(/img/cloud.jpg);
+  background-position: center -100px;
+  background-repeat: no-repeat;
+  background-size: 1100px ;
 }
 
 .site-title {
@@ -15,17 +46,18 @@
   font-weight: 300;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
+  margin-top: 10px;
   margin-bottom: 20px;
   float: left;
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: $grey-color-light;
   }
 }
 
 .site-nav {
-  margin-top: 40px;
+  margin-top: 200px;
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
 
@@ -38,7 +70,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: $grey;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one

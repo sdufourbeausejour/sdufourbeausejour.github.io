@@ -1,7 +1,9 @@
 @charset "utf-8";
 
-// Define defaults for each variable.
+// Custom variables
+$grey:             #dedfe0 !default;
 
+// Define defaults for each variable.
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
@@ -17,7 +19,6 @@ $brand-color:      #2a7ae2 !default;
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
-$white:            #ffffff !default;
 
 // Width of the content area
 $content-width:    800px !default;
