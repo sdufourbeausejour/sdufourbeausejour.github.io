@@ -2,62 +2,78 @@
  * Site header
  */
  .site-header {
-   border-bottom: 1px solid $grey-color-light;
-   //min-height: $spacing-unit * 1.865;
-   min-height: 200px;
+   //border-bottom: 1px solid $grey-color-light;
+   min-height: $spacing-unit * 1.865;
    // Positioning context for the mobile navigation icon
    position: relative;
+ }
+ .site-header .site-header-image {
+   background: url(/img/header-montage-2.jpg);
+   background-repeat: no-repeat;
+   // Big enough size that image overflows on sides
+   background-size: 1000px ;
+   // Fixed height for image
+   height: 250px;
+   background-position: center, center;
 
-   // Image as background
-   //background: url(/img/cloud.jpg);
-   //background-position: center -100px;
-   //background-repeat: no-repeat;
-   //background-size: 1800px 400px;
+   // Positioning context for the mobile navigation icon
+   position: relative;
  }
  .site-header-radio {
    //border-bottom: 1px solid $grey-color-light;
-   //min-height: $spacing-unit * 1.865;
-   min-height: 250px;
+   min-height: $spacing-unit * 1.865;
    // Positioning context for the mobile navigation icon
    position: relative;
-
-   // Image as background
-   background: url(/img/les-simones-zine.jpg);
-   background-position: center -300px;
-   background-repeat: no-repeat;
-   background-size: 1100px ;
  }
+
+ .site-header-radio .site-header-image-radio {
+   background: url(/img/les-simones-team.jpg);
+   background-repeat: no-repeat;
+   // Big enough size that image overflows on sides
+   background-size: 1100px ;
+   // Fixed height for image
+   height: 250px;
+   background-position: -0px -220px;
+
+   // Positioning context for the mobile navigation icon
+   position: relative;
+ }
+
 .site-header-science {
   //border-bottom: 1px solid $grey-color-light;
-  //min-height: $spacing-unit * 1.865;
-  min-height: 250px;
+  min-height: $spacing-unit * 1.865;
   // Positioning context for the mobile navigation icon
   position: relative;
-
-  // Image as background
-  background: url(/img/cloud.jpg);
-  background-position: center -100px;
-  background-repeat: no-repeat;
-  background-size: 1100px ;
 }
+.site-header-science .site-header-image-science {
+  background: url(/img/polynie.jpg);
+  background-repeat: no-repeat;
+  // Big enough size that image overflows on sides
+  background-size: 1200px ;
+  // Fixed height for image
+  height: 250px;
+  background-position: -0px -130px;
 
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
 .site-title {
   @include relative-font-size(1.625);
   font-weight: 300;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   float: left;
 
   &,
   &:visited {
-    color: $grey-color-light;
+    color: $grey-color-dark;
   }
 }
 
 .site-nav {
-  margin-top: 200px;
+  margin-top: 10px;
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
 
@@ -70,7 +86,7 @@
   }
 
   .page-link {
-    color: $grey;
+    color: $grey-color-dark;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -139,7 +155,7 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+  border-top: 1px solid $grey-color-dark;
   padding: $spacing-unit 0;
 }
 
