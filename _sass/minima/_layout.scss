@@ -151,84 +151,6 @@
   }
 }
 
-.site-nav-inner {
-  border-top: 1px solid $grey-color-light;
-  border-bottom: 1px solid $grey-color-light;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  //float: right;
-  line-height: $base-line-height * $base-font-size * 2.25;
-
-  .nav-trigger {
-      display: none;
-  }
-
-  .menu-icon {
-    display: none;
-  }
-
-  .page-link {
-    color: $grey-color-dark;
-    line-height: $base-line-height;
-    font-size: $base-font-size;
-
-    // Gaps between nav items, but not on the last one
-    margin-right: 25px;
-    margin-left: 25px;
-  }
-
-  @include media-query($on-palm) {
-    position: absolute;
-    top: 9px;
-    right: $spacing-unit / 2;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
-    text-align: center;
-
-    label[for="nav-trigger"] {
-      display: block;
-      float: center;
-      width: 36px;
-      height: 36px;
-      z-index: 2;
-      cursor: pointer;
-    }
-
-    .menu-icon {
-      display: block;
-      float: center;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 10px;
-      text-align: center;
-
-      > svg path {
-        fill: $grey-color-dark;
-      }
-    }
-
-    input ~ .trigger {
-      clear: both;
-      display: none;
-    }
-
-    input:checked ~ .trigger {
-      display: block;
-      padding-bottom: 5px;
-    }
-
-    .page-link {
-      display: block;
-      padding: 10px 10px;
-      margin-right: 20px;
-      margin-left: 20px;
-    }
-  }
-}
-
-
 /**
  * Site footer
  */
@@ -321,7 +243,7 @@
 
 .post-meta {
   font-size: $small-font-size;
-  color: $grey-color;
+  color: $grey-color-dark;
 }
 
 .post-link {

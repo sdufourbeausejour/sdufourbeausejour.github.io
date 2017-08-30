@@ -5,3 +5,129 @@
 @import
 "minima"
 ;
+
+// Custom colors
+$grey:             #dedfe0 !default;
+$white:            #ffffff !default;
+
+.site-nav-inner {
+  border-top: 1px solid $grey-color-light;
+  border-bottom: 1px solid $grey-color-light;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  //float: right;
+  line-height: $base-line-height * $base-font-size * 2.25;
+
+  .nav-trigger {
+      display: none;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    color: $grey-color-dark;
+    line-height: $base-line-height;
+    font-size: $base-font-size;
+
+    // Gaps between nav items, but not on the last one
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+
+  @include media-query($on-palm) {
+    position: absolute;
+    top: 9px;
+    right: $spacing-unit / 2;
+    background-color: $background-color;
+    border: 1px solid $grey-color-light;
+    border-radius: 5px;
+    text-align: center;
+
+    label[for="nav-trigger"] {
+      display: block;
+      float: center;
+      width: 36px;
+      height: 36px;
+      z-index: 2;
+      cursor: pointer;
+    }
+
+    .menu-icon {
+      display: block;
+      float: center;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 10px;
+      text-align: center;
+
+      > svg path {
+        fill: $grey-color-dark;
+      }
+    }
+
+    input ~ .trigger {
+      clear: both;
+      display: none;
+    }
+
+    input:checked ~ .trigger {
+      display: block;
+      padding-bottom: 5px;
+    }
+
+    .page-link {
+      display: block;
+      padding: 10px 10px;
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+  }
+}
+
+
+/**
+ * Links
+ */
+a {
+  color: $grey-color-dark;
+  text-decoration: none;
+
+  &:visited {
+    color: lighten($grey-color-dark, 15%);
+  }
+
+  &:hover {
+    color: $text-color;
+    text-decoration: underline;
+  }
+
+  .social-media-list &:hover {
+    text-decoration: none;
+
+    .username {
+      text-decoration: underline;
+    }
+  }
+}
+
+/**
+ * Page content
+ */
+.post-meta {
+  font-size: $small-font-size;
+  color: $grey-color-dark;
+}
+.post-link {
+  display: table-cell;
+  @include relative-font-size(1.2);
+  padding: 0px 0px 10px 0px;  
+  border-bottom: 1px solid $grey-color-light;
+}
+.smaller {
+  //font-size: $small-font-size
+  display: block;
+  @include relative-font-size(0.2);
+}
