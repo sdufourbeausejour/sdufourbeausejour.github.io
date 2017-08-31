@@ -10,6 +10,19 @@
 $grey:             #dedfe0 !default;
 $white:            #ffffff !default;
 
+// Social media list under site title
+.social-media-list {
+  margin-left: 0px;
+  margin-right: 5px;
+  display: block;
+  float: left;
+  width: 36px;
+  height: 36px;
+  li + li {
+      padding-top: 5px;
+    }
+}
+
 // From https://github.com/IanLunn/Hover
 /* Underline From Center */
 .hvr-underline-from-center {
