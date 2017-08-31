@@ -23,7 +23,7 @@
           {% for page in sorted_pages %}
             {% if page.title %}
               {% if page.show_in_nav %}
-                <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+                  <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
               {% endif %}
             {% endif %}
           {% endfor %}
@@ -65,7 +65,9 @@
             {% for page in sorted_pages %}
               {% if page.title %}
                 {% if page.show_in_nav_science %}
-                  <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+                  <span>
+                    <a class="hvr-underline-from-center" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+                  </span>
                 {% endif %}
               {% endif %}
             {% endfor %}

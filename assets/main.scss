@@ -10,16 +10,61 @@
 $grey:             #dedfe0 !default;
 $white:            #ffffff !default;
 
+// From https://github.com/IanLunn/Hover
+/* Underline From Center */
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  -webkit-transform: perspective(1px) translateZ(0px);
+  transform: perspective(1px) translateZ(0px);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+  width: auto;
+  color: $grey-color-dark;
+  line-height: $base-line-height;
+  font-size: $base-font-size;
+
+  // Gaps between nav items, but not on the last one
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: $grey-color-dark;
+  height: 1px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+
+
+// Customizing of minima css
 .site-nav-inner {
-  border-top: 1px solid $grey-color-light;
-  border-bottom: 1px solid $grey-color-light;
+  //border-top: 1px solid $grey-color-light;
+  //border-bottom: 1px solid $grey-color-light;
   margin-top: 10px;
   margin-bottom: 10px;
   //float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
-      display: none;
+    display: none;
   }
 
   .menu-icon {
@@ -52,6 +97,7 @@ $white:            #ffffff !default;
       height: 36px;
       z-index: 2;
       cursor: pointer;
+      color: $grey-color-dark;
     }
 
     .menu-icon {
@@ -79,6 +125,7 @@ $white:            #ffffff !default;
     }
 
     .page-link {
+      color: $grey-color-dark;
       display: block;
       padding: 10px 10px;
       margin-right: 20px;
@@ -87,6 +134,9 @@ $white:            #ffffff !default;
   }
 }
 
+span {
+    white-space: nowrap;
+}
 
 /**
  * Links
@@ -96,19 +146,18 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: lighten($grey-color-dark, 15%);
+    color: $grey-color-dark;
   }
 
   &:hover {
-    color: $text-color;
-    text-decoration: underline;
+
   }
 
   .social-media-list &:hover {
     text-decoration: none;
 
     .username {
-      text-decoration: underline;
+      text-decoration: none;
     }
   }
 }
@@ -121,9 +170,10 @@ a {
   color: $grey-color-dark;
 }
 .post-link {
+  color: $grey-color-dark;
   display: table-cell;
   @include relative-font-size(1.2);
-  padding: 0px 0px 10px 0px;  
+  padding: 0px 0px 10px 0px;
   border-bottom: 1px solid $grey-color-light;
 }
 .smaller {
