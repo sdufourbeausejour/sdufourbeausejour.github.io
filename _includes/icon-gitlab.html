@@ -1,1 +1,1 @@
-<a href="https://gitlab.com/{{ include.username }}"><i class="ai ai-gitlab" aria-hidden="true"></i></a>
+{% if site.gitlab_username %}<a href="https://gitlab.com/{{ site.gitlab_username | cgi_escape | escape}}"><i class="fa fa-gitlab" aria-hidden="true"></i></a>{% endif %}

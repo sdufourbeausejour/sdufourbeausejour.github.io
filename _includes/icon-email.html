@@ -1,1 +1,1 @@
-<a href="mailto:{{ include.email }}"><span class="icon icon--email">{% include icon-email.svg %}</span></a>
+{% if site.email %}<a href="mailto:{{ site.email | cgi_escape | escape }}"><i class="fa fa-envelope" aria-hidden="true"></i></a>{% endif %}

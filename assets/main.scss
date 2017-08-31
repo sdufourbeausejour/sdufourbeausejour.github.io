@@ -33,7 +33,7 @@ $white:            #ffffff !default;
   padding-left: 5px;
   -webkit-transform: perspective(1px) translateZ(0px);
   transform: perspective(1px) translateZ(0px);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 0px transparent;
   position: relative;
   overflow: hidden;
   width: auto;
@@ -65,6 +65,8 @@ $white:            #ffffff !default;
   left: 0;
   right: 0;
 }
+
+
 
 
 // Customizing of minima css
