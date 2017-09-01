@@ -2,6 +2,7 @@
 layout: home
 ---
 <div class="home">
+
   {{ content }}
 
   <!--<h1 class="page-heading">Posts</h1>-->
@@ -11,7 +12,11 @@ layout: home
       <li>
         {% assign date_format = site.minima.date_format | default: "%Y-%m-%d" %}
         {% assign date = post.date | date: date_format %}
-        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape | prepend: " | " | prepend: date }}</a>
+        <a class="hvr-underline-from-left" href="{{ post.url | relative_url }}">{{ post.title | escape | prepend: " | " | prepend: date }}</a>
+            <div class="post-excerpt">
+              {{ post.content | strip_html | truncatewords: 50 }}
+            </div>
+        </a>
       </li>
     {% endfor %}
   </ul>
