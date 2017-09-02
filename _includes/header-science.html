@@ -4,7 +4,6 @@
     <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
   </div>
 
-
   <!-- Header icons -->
   <div class="wrapper">
     <ul class="social-media-list">
@@ -28,7 +27,7 @@
     <ul class="social-media-list">
       {% include icon-mixcloud.html %}
     </ul>
-    
+
     <!-- Nav bar-->
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}

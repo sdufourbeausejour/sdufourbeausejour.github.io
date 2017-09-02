@@ -10,6 +10,12 @@
 $grey:             #dedfe0 !default;
 $white:            #ffffff !default;
 
+//
+.post-tags{
+  font-size: 0.9*$base-font-size;
+  margin-right: 20px;
+}
+
 // Post excerpt
 .post-excerpt {
   padding-top: 5px;
