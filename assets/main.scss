@@ -133,8 +133,9 @@ $white:            #ffffff !default;
     color: $grey-color-dark;
     line-height: $base-line-height;
     font-size: $base-font-size;
+    position: relative;
 
-    // Gaps between nav items, but not on the last one
+    // Gaps between nav items,
     margin-right: 25px;
     margin-left: 25px;
   }
@@ -204,11 +205,9 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: $grey-color-dark;
   }
 
   &:hover {
-
   }
 
   .social-media-list &:hover {

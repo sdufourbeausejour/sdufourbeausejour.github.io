@@ -91,11 +91,32 @@
   .page-link {
     color: $grey-color-dark;
     line-height: $base-line-height;
+    position: relative;
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
       margin-right: 20px;
     }
+  }
+  .page-link-active {
+    line-height: $base-line-height;
+    position: relative;
+
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+  .page-link-active:before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    background: $grey-color-dark;
+    width: 2px;
+    height: 2px;
+    border-radius: 100%;
+    right:calc(50% - 0px);
+    left:calc(50% - 0px);
   }
 
   @include media-query($on-palm) {
@@ -141,14 +162,12 @@
     }
 
     .page-link {
-      display: block;
-      padding: 5px 10px;
       color: $grey-color-dark;
+      display: block;
 
       &:not(:last-child) {
-        margin-right: 0;
+        margin-right: 20px;
       }
-      margin-left: 20px;
     }
   }
 }

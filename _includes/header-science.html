@@ -20,10 +20,14 @@
         <div class="trigger">
           <!-- Sort pages by order, only show pages that have show_in_nav -->
           {% assign sorted_pages = site.pages | sort:"order" %}
-          {% for page in sorted_pages %}
-            {% if page.title %}
-              {% if page.show_in_nav %}
-                  <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+          {% for node in sorted_pages %}
+            {% if node.title %}
+              {% if node.show_in_nav %}
+                {% if node.layout == "page-science" %}
+                  <a class="page-link-active" href="{{ node.url | relative_url }}">{{ node.title | escape }}</a>
+                {% else %}
+                  <a class="page-link" href="{{ node.url | relative_url }}">{{ node.title | escape }}</a>
+                {% endif %}
               {% endif %}
             {% endif %}
           {% endfor %}
@@ -89,11 +93,11 @@
           <div class="trigger">
             <!-- Sort pages by order, only show pages that have show_in_nav_science -->
             {% assign sorted_pages = site.pages | sort:"order" %}
-            {% for page in sorted_pages %}
-              {% if page.title %}
-                {% if page.show_in_nav_science %}
+            {% for node in sorted_pages %}
+              {% if node.title %}
+                {% if node.show_in_nav_science %}
                   <span>
-                    <a class="hvr-underline-from-center" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+                    <a class="hvr-underline-from-center" href="{{ node.url | relative_url }}">{{ node.title | escape }}</a>
                   </span>
                 {% endif %}
               {% endif %}
