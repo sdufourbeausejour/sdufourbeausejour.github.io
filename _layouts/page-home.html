@@ -12,7 +12,13 @@ layout: home
       <li>
         {% assign date_format = site.minima.date_format | default: "%Y-%m-%d" %}
         {% assign date = post.date | date: date_format %}
-        <a class="hvr-underline-from-left" href="{{ post.url | relative_url }}">{{ post.title | escape | prepend: " | " | prepend: date }}</a>
+        <a class="hvr-underline-from-left" href="{{ post.url | relative_url }}">
+          <table>
+          <td class="small-date">{{date}}</td>
+          <td>{{ post.title | escape | prepend: " | "}}</td>
+        </table>
+        </a>
+
         <div>
         {% for tag in post.tags %}
           <span class="post-tags">
