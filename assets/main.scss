@@ -217,8 +217,12 @@ span {
     white-space: nowrap;
 }
 
+// Everything that is an adapted version of minima CSS
+/**
+ * Links
+ */
 // Remove all minima decorations on links (visited, hover)
-// Over-rides the minima original in layout.scss 
+// Over-rides the minima original in layout.scss
 a {
   color: $grey-color-dark;
   text-decoration: none;
@@ -231,5 +235,21 @@ a {
     .username {
       text-decoration: none;
     }
+  }
+}
+/**
+ * Blockquotes
+ */
+// Adapt format
+blockquote {
+  color: $grey-color;
+  border-left: 1px solid $grey-color;
+  padding-left: $spacing-unit / 2;
+  @include relative-font-size(1);
+  //letter-spacing: -1px;
+  font-style: normal;
+
+  > :last-child {
+    margin-bottom: 0;
   }
 }
