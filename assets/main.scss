@@ -233,25 +233,3 @@ a {
     }
   }
 }
-
-/**
- * Page content
- */
-// don't know if necessary
-// also appears in layout.scss
-.post-meta {
-  font-size: $small-font-size;
-  color: $grey-color-dark;
-}
-.post-link {
-  color: $grey-color-dark;
-  display: table-cell;
-  @include relative-font-size(1.2);
-  padding: 0px 0px 10px 0px;
-  border-bottom: 1px solid $grey-color-dark;
-}
-.smaller {
-  //font-size: $small-font-size
-  display: block;
-  @include relative-font-size(0.2);
-}
