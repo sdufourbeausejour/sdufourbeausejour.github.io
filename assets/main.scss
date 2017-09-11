@@ -67,11 +67,29 @@ $white:            #ffffff !default;
 }
 
 // Everything to do with images
+// Class to show an image as full-width
 .full-width {
   max-width:100%;
   max-height:100%;
 }
-
+// Class to use an image as a thumbnail
+.thumbnail {
+  margin-left: 0px;
+  margin-right: 20px;
+  float: left;
+}
+.thumbnail-content {
+  margin-left: 0px;
+  margin-right: 20px;
+  text-align: left;
+}
+.thumbnail-container {
+  @extend %clearfix;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 // Everything to do with headers
 // Social media list under site title
