@@ -218,7 +218,7 @@ span {
 }
 
 // Remove all minima decorations on links (visited, hover)
-// don't know if necessary (also appears in base.scss)
+// Over-rides the minima original in layout.scss 
 a {
   color: $grey-color-dark;
   text-decoration: none;
