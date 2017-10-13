@@ -27,6 +27,7 @@ layout: home
           {% endfor %}
         </div>
 
+        <a href="{{ post.url | relative_url }}">
           <div class="post-excerpt">
             {{ post.content | strip_html | truncatewords: 50 }}
           </div>
