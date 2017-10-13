@@ -24,11 +24,17 @@ $white:            #ffffff !default;
   font-size: $small-font-size;
   vertical-align: middle;
 }
+.medium-title{
+  font-size: $base-font-size;
+  //color : $grey-color-dark;
+  vertical-align: middle;
+}
 // Class for tags in a post list
 .post-tags{
   font-size: 0.9*$base-font-size;
   margin-right: 20px;
   line-height: 1.5*$base-line-height;
+  //color: $grey-color-light;
 }
 // Class for the post excerpt in a post list
 .post-excerpt {
