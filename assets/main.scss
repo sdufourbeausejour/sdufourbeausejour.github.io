@@ -10,6 +10,13 @@
 $grey:             #dedfe0 !default;
 $white:            #ffffff !default;
 
+// Page content layout
+.wrapper-content{
+  @extend .wrapper;
+  margin-top: 0px;
+  //border-top: 1px solid $grey-color-light;
+}
+
 // Everything to do with posts
 // Class for the date format in the post title in a post list
 .small-date{
@@ -155,6 +162,7 @@ $white:            #ffffff !default;
   //border-bottom: 1px solid $grey-color-light;
   margin-top: 10px;
   margin-bottom: 0px;
+
   //float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
 

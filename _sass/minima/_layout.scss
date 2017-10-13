@@ -19,6 +19,8 @@
 
    // Positioning context for the mobile navigation icon
    position: relative;
+   // Bottom margin when no inner nav bar
+   margin-bottom: 15px;
  }
  .site-header-radio {
    //border-bottom: 1px solid $grey-color-light;
@@ -246,6 +248,7 @@
  */
 .page-content {
   padding: $spacing-unit 0;
+  //border-top: 1px solid $grey-color-light;
 }
 
 .page-heading {
@@ -294,7 +297,7 @@
 .post-content {
   margin-bottom: $spacing-unit;
   text-align: justify;
-  
+
   h2 {
     @include relative-font-size(2);
 
