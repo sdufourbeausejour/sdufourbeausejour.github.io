@@ -44,6 +44,26 @@ Véronique ([KRG][KRG]) and I ([Université INRS][MB]) were there for the [Ice m
 
 It was the first time I could see the bay without ice on it; I usually go during the winter. Even though we were only there for three busy days, it felt like a vacation. Such a beautiful place ! I feel very privileged.
 
+<center>
+<img border="0" alt="Kangiqsujuaq or Wakeham Bay (Nunavik, Canada), October 2nd 2017" title="Kangiqsujuaq, Nunavik, Canada" src="{{site.url}}/img/17-10-06 WB.jpg" width="560px">
+</center>
+<br>
+Amidst all the activities surrounding the Forum, I managed to go say "hi" to the older science class and spend a whole period doing the Ice Mission workshop with the younger high school science class. In April 2018, all the students from the high school will be invited out on the ice to see first-hand what type of work we do and what type of equipment we use.
+
+<center>
+<div width="600px">
+<img alt="Ice mission : Colored water seeps into sea ice but slips off lake ice. That's because the salt makes sea-ice porous, like a sponge." title="Ice mission - porosity" src="{{site.url}}/img/17-10-03 Ice mission 1.jpg" width="200">
+<img alt="Ice mission : The results of all our tests" title="Ice mission - results" src="{{site.url}}/img/17-10-03 Ice mission 2.jpg" width="355">
+</div>
+</center>
+<br>
+
+I also had time to spend two periods with Torie Kopp's english class, where we worked on an audio / radio project with the students. First part : students record themselves talking about the land and add some sounds recorded outside using the open source editing software [Audacity][Audacity]. The resources I'm preparing for this are available on Google drive [here][Audio-project]. Keep in touch if you want more info !
+
+For more pictures, see the Ice monitoring project's [Facebook page][Ice-monitoring].
+
+[Audacity]:http://www.audacityteam.org]
+[Audio-project]:https://drive.google.com/drive/folders/0B0rqgHR4H4FYeXE0RlhSaFNQYlE?usp=sharing
 [Ice-monitoring]:https://www.facebook.com/IceMonitoringNunavik
 [KRG]:www.krg.ca
 [MB]:http://www.inrs.ca/english/monique-bernier?f=chaires-groupes-reseaux
