@@ -3,6 +3,7 @@ layout: post
 title:  "Festival de création radio: Résonance 2017 à Montréal"
 date:   2017-08-17 12:55:21 -0400
 categories: radio
+language: french
 tags: festival création-radio magnéto
 ---
 La rumeur d'une fin de semaine d'ateliers sur la création radiophonique s'est rendue jusqu'à l'équipe des [Simones][FB-LS]...  

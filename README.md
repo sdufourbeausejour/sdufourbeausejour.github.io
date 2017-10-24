@@ -1,3 +1,7 @@
+## Sources
+
+Date formatting in french from Sylvain Durand : https://www.sylvaindurand.fr/rendre-jekyll-multilingue/
+
 # minima
 
 *Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.

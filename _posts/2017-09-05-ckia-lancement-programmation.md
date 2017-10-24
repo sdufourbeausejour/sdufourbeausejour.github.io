@@ -3,6 +3,7 @@ layout: post
 title:  "Une nouvelle saison qui commence à CKIA FM"
 date:   2017-09-05 12:55:21 -0400
 categories: radio
+language: french
 tags: CKIA les-simones
 ---
 Geneviève Morin et moi, septembre 2015, attablées à la Brûlerie Saint-Roch : «Si on fait une saison complète, je vais être contente...» C'est de la <i>job</i> faire de la radio, et je ne voulais pas qu'on se brûle avant d'avoir commencé.

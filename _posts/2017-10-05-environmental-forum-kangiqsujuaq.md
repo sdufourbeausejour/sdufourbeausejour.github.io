@@ -3,6 +3,7 @@ layout: post
 title:  "Environmental Forum in Kangiqsujuaq"
 date:   2017-10-07 12:55:21 -0400
 categories: science
+language: english
 tags: Kangiqsujuaq Nunavik outreach radio high-school
 ---
 This week I was in Kangiqsujuaq (Wakeham Bay) for the 2017 Raglan Mine Environmental Forum. The mine was there to present the results of their environmental monitoring and to answer questions from the public. Scientists working on projects in collaboration with Raglan, such as myself, were also there to present our work and results.

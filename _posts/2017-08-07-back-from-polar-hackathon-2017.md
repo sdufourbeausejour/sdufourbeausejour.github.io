@@ -3,6 +3,7 @@ layout: post
 title:  "Hack the planet !"
 date:   2017-08-07 12:55:21 -0400
 categories: science
+language: english
 tags: conference northern workshop code project
 ---
 I'm back from an exciting week at Stonybrook University (NY). I was there for the [Polar High Performance Computing Workshop and Hackathon][PolarHackathon-Post]. The week kicked off with two days of training. A lot of the courses were from [Software Carpentry][software-carpentry] : [Unix Shell][unix], version control with [Git][git], 4 hours of [Intro to Python][python]... The hands-on coursework developed by this not-for-profit organization is great, and accessible online at no charge. Even after years of coding in Python and using Git, I still learned a couple of tricks - and finally switched to **Python 3** !
