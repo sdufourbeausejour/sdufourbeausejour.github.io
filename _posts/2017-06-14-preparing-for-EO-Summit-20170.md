@@ -8,7 +8,7 @@ tags: conference talk remote-sensing ice-monitoring
 ---
 Summertime is conference time! I'll be in Montreal (Canada) next week for the [Earth Observation Summit 2017][EOSummit17-page]. I've mostly been attending northern research events, so this will actually be my first remote sensing conference. The EO Summit is a good place to start, as it will combine three yearly meetings : the Canadian Symposium on Remote Sensing ([CSRS][CSRS]), the Congress of the Association Québécoise de Télédétection ([AQT][AQT]) and the Advanced SAR ([ASAR][ASAR]) Workshop.
 
-I'll be presenting my work on Monitoring Sea Ice in Nunavik on **Wednesday June 19th at 15:30** in the third session on Microwave Remote Sensing of the Cryosphere. There are many crysophere sessions that look super interesting; you'll know where to find me ! Here's the program if you want to check it out :
+I'll be presenting my work on Monitoring Sea Ice in Nunavik on **Wednesday June 19th at 15:30** in the third session on Microwave Remote Sensing of the Cryosphere. There are many crysophere sessions that look super interesting; you'll know where to find me ! Here's the program :
 
 <center>
 <a href="https://crss-sct.ca/wp-content/uploads/2017/06/SommetOT2017-EOSummit2017-Programme-final-Final-Program-Web.pdf">
