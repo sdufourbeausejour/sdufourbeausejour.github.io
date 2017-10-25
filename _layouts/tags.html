@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 ---
 <div class="home">
 
@@ -9,6 +9,7 @@ layout: home
 
   <ul class="post-list">
     {% for post in site.posts %}
+    {% if post.tags contains page.tag %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%Y-%m-%d" %}
         {% assign date = post.date | date: date_format %}
@@ -33,6 +34,7 @@ layout: home
           </div>
         </a>
       </li>
+      {% endif %}
     {% endfor %}
   </ul>
 

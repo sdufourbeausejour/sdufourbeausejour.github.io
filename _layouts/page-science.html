@@ -24,7 +24,7 @@ layout: science
           <div>
             {% for tag in post.tags %}
               <span class="post-tags">
-                <a href="{{ tag.url | relative_url }}">{{ tag }}</a>
+                <a href="{{ tag | append: ".html" | prepend: "/tags/" }}">{{ tag }}</a>
               </span>
             {% endfor %}
           </div>

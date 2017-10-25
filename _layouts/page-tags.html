@@ -1,0 +1,25 @@
+---
+layout: default
+title: Tags
+permalink: /tags/
+show_in_nav : false
+---
+
+{{ content }}
+
+{% assign tag_list = "code, conference"  | split: ", " %}
+{% for post in site.posts %}
+  {% for tag in post.tags %}
+    {% unless tag_list contains tag %}
+      {% assign tag_list = tag | concat: tag_list %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+
+{% assign sorted_tag_list = tag_list | sort %}
+
+{% for tag in sorted_tag_list %}
+  <span class="post-tags">
+    <a href="{{ tag | append: ".html" | prepend: "/tags/" }}">{{ tag }}</a>
+  </span>
+{% endfor %}
