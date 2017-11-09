@@ -8,14 +8,14 @@
    position: relative;
  }
  .site-header .site-header-image {
-   background: url(/img/header-montage-2.jpg);
+   background: url(/img/Salluit.jpg);
    background-repeat: no-repeat;
    opacity: 0.75;
    // Big enough size that image overflows on sides
-   background-size: 1000px ;
+   background-size: 750px ;
    // Fixed height for image
    height: 250px;
-   background-position: center, center;
+   background-position: center -240px;
 
    // Positioning context for the mobile navigation icon
    position: relative;
