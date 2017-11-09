@@ -1,10 +1,25 @@
 ---
-layout: default
+layout: tag
 ---
 <div class="home">
+  <div class="tag-presentation">
+    {% for post in site.posts %}
+      {% if post.tags contains page.tag %}
+        {% if post.language == "french" %}{% assign french = 1%}{% endif %}
+        {% if post.language == "english" %}{% assign english = 1%}{% endif %}
+      {% endif %}
+    {% endfor %}
 
-  {{ content }}
-
+    {% if french %}
+      Voici tous les articles qui portent l'étiquette <b>{{page.tag}}</b></br>
+    {% endif %}
+    {% if french and english %}
+      ·</br>
+    {% endif %}
+    {% if english %}
+      Here are all the posts tagged with <b>{{page.tag}}</b></br>
+    {% endif %}
+  </div>
   <!--<h1 class="page-heading">Posts</h1>-->
 
   <ul class="post-list">

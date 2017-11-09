@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: tag
 title: Tags
 permalink: /tags/
 show_in_nav : false
@@ -17,9 +17,10 @@ show_in_nav : false
 {% endfor %}
 
 {% assign sorted_tag_list = tag_list | sort %}
-
+<div class="tag-presentation">
 {% for tag in sorted_tag_list %}
   <span class="post-tags">
     <a href="{{ tag | append: ".html" | prepend: "/tags/" }}">{{ tag }}</a>
   </span>
 {% endfor %}
+</div>
