@@ -10,26 +10,21 @@
  .site-header .site-header-image {
    background: url(/img/Salluit.jpg);
    background-repeat: no-repeat;
-   opacity: 0.75;
+   opacity: 1;
    // Big enough size that image overflows on sides
    background-size: 750px ;
    // Fixed height for image
    height: 250px;
    background-position: center -240px;
-
    // Positioning context for the mobile navigation icon
    position: relative;
    // Bottom margin when no inner nav bar
    margin-bottom: 15px;
  }
- .site-header-radio {
-   //border-bottom: 1px solid $grey-color-light;
-   min-height: $spacing-unit * 1.865;
-   // Positioning context for the mobile navigation icon
-   position: relative;
+ .site-header .site-header-image:hover {
+   //opacity: 0.85;
  }
-
- .site-header-radio .site-header-image-radio {
+ .site-header .site-header-image-radio {
    background: url(/img/les-simones-team.jpg);
    background-repeat: no-repeat;
    // Big enough size that image overflows on sides
@@ -37,18 +32,10 @@
    // Fixed height for image
    height: 250px;
    background-position: -0px -120px;
-
    // Positioning context for the mobile navigation icon
    position: relative;
  }
-
-.site-header-science {
-  //border-bottom: 1px solid $grey-color-light;
-  min-height: $spacing-unit * 1.865;
-  // Positioning context for the mobile navigation icon
-  position: relative;
-}
-.site-header-science .site-header-image-science {
+.site-header .site-header-image-science {
   background: url(/img/polynie.jpg);
   background-repeat: no-repeat;
   // Big enough size that image overflows on sides
@@ -56,7 +43,17 @@
   // Fixed height for image
   height: 250px;
   background-position: -0px -130px;
-
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+.site-header .site-header-image-home {
+  background: url(/img/Kangiqsujuaq.jpg);
+  background-repeat: no-repeat;
+  // Big enough size that image overflows on sides
+  background-size: 750px ;
+  // Fixed height for image
+  height: 250px;
+  background-position: -0px -70px;
   // Positioning context for the mobile navigation icon
   position: relative;
 }
