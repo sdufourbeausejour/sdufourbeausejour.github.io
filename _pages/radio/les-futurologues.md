@@ -1,5 +1,5 @@
 ---
-layout: page-radio
+layout: radio
 title: Les Futurologues
 permalink: /radio/les-futurologues/
 order: 1

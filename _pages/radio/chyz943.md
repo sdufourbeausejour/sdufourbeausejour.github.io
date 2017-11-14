@@ -1,5 +1,5 @@
 ---
-layout: page-radio
+layout: radio
 title: CHYZ 94,3 FM
 permalink: /radio/chyz943/
 order: 2

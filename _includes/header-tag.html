@@ -50,11 +50,7 @@
           {% for node in sorted_pages %}
             {% if node.title %}
               {% if node.show_in_nav %}
-              {% if node.layout == "page-radio" %}
-                  <a class="page-link-active" href="{{ node.url | relative_url }}">{{ node.title | escape }}</a>
-                {% else %}
                   <a class="page-link" href="{{ node.url | relative_url }}">{{ node.title | escape }}</a>
-                {% endif %}
               {% endif %}
             {% endif %}
           {% endfor %}

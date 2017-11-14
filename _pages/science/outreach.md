@@ -1,5 +1,5 @@
 ---
-layout: page-science
+layout: science
 title: Outreach
 permalink: /science/outreach/
 order: 3

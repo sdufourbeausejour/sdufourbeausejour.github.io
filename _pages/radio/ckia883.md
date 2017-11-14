@@ -1,5 +1,5 @@
 ---
-layout: page-radio
+layout: radio
 title: CKIA 88,3 FM
 permalink: /radio/ckia883/
 order: 1

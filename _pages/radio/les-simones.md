@@ -1,5 +1,5 @@
 ---
-layout: page-radio
+layout: radio
 title: Les Simones
 permalink: /radio/les-simones/
 order: 1

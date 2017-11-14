@@ -1,5 +1,5 @@
 ---
-layout: page-science
+layout: science
 title: Media
 permalink: /science/media/
 order: 2

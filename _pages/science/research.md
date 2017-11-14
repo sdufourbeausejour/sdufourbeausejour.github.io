@@ -1,5 +1,5 @@
 ---
-layout: page-science
+layout: science
 title: Research
 permalink: /science/research/
 order: 2
