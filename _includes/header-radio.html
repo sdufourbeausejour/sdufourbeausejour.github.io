@@ -96,12 +96,18 @@
           <div class="trigger">
             <!-- Sort pages by order, only show pages that have show_in_nav_radio -->
             {% assign sorted_pages = site.pages | sort:"order" %}
-            {% for page in sorted_pages %}
-              {% if page.title %}
-                {% if page.show_in_nav_radio %}
-                  <span>
-                    <a class="hvr-underline-from-center" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
-                  </span>
+            {% for node in sorted_pages %}
+              {% if node.title %}
+                {% if node.show_in_nav_radio %}
+                  {% if node.title == page.title %}
+                    <span>
+                      <a class="hvr-underline-from-center-active" href="{{ node.url | relative_url }}">{{ node.title | escape }}</a>
+                    </span>
+                  {% else %}
+                    <span>
+                      <a class="hvr-underline-from-center" href="{{ node.url | relative_url }}">{{ node.title | escape }}</a>
+                    </span>
+                    {% endif %}
                 {% endif %}
               {% endif %}
             {% endfor %}
