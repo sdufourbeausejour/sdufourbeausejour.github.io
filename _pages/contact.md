@@ -7,11 +7,11 @@ show_in_nav : true
 show_in_nav_radio : false
 show_in_nav_science : false
 ---
-I am currently a PhD candidate in [Monique Bernier's][MB] research group at [Université INRS Centre Eau Terre Environnement][INRS]  in Québec City, Canada. I'm affiliated with the [Center for Northern Studies][CEN].<br>
+I am currently a PhD candidate in [Monique Bernier's][MB] research group at [Université INRS][INRS] Centre Eau Terre Environnement in Québec City, Canada. I'm affiliated with the Center for Northern Studies ([CEN][CEN]).<br>
 You may contact me by email at [s.dufour.beausejour@gmail.com][email]<br>
 · <br>
-[W. Garfield Weston Foundation Doctoral Award][Weston] (2017)<br>
-[AQT][AQT] Award for Best Oral Presentation at the [Earth Observation Summit 2017][EOSummit]<br>
+[W. Garfield Weston Foundation][Weston] Doctoral Award (2017)<br>
+[AQT][AQT] Award for Best Oral Presentation at the [Earth Observation Summit][EOSummit] 2017<br>
 Bénévole de l'année / la plus impliquée, [<i>CHYZ 94,3 FM</i>][CHYZ] / [<i>CKIA 88,3 FM</i>][CKIA] (2017)<br>
 
 
