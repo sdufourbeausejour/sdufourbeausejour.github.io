@@ -23,6 +23,16 @@ layout: default
     {{ content }}
   </div>
 
+  <div>
+    <center>
+    {% for tag in page.tags %}
+    <span class="post-tags">
+      <a href="{{ tag | append: ".html" | prepend: "/tags/" }}">{{ tag }}</a>
+    </span>
+    {% endfor %}
+  </center>
+  </div>
+
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
   {% endif %}
