@@ -10,7 +10,7 @@ I've been involved in many outreach projects and activities throughout the years
 
 #### <u>In the media</u>
 * Mieux comprendre les changements climatiques en Arctique<br/>
-Émission : Québec, Réveille !<br/>
+Émission : Québec, réveille !<br/>
 15 décembre 2017, CKIA FM 88,3 (Québec, Canada)<br/>
 [Écouter](http://soundcloud.com/quebecreveille/entre…)
 
