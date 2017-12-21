@@ -13,7 +13,7 @@ Je m'implique au sein de la radio communautaire CKIA FM 88,3 depuis plus de deux
 Magazine féministe bi-mensuel<br/>
 Depuis septembre 2015<br/>
 &#9734; «Meilleure émission d'affaires publiques» de l'année 2016-2017<br/>
-[Écouter](https://www.mixcloud.com/LesSimones/) | [Facebook](https://www.facebook.com/pg/LesSimonesCKIA/about/?ref=page_internal) |
+[Écouter](https://www.mixcloud.com/LesSimones/) | [Facebook](https://www.facebook.com/pg/LesSimonesCKIA/about/?ref=page_internal)
 
 #### <u>Collaborations</u>
 * Le Festival de cinéma de la ville de Québec<br/>
@@ -21,7 +21,7 @@ Couverture médiatique (chronique radiophonique)<br/>
 Québec, réveille !, 21 septembre 2017<br/>
 
 * Le Festival OFF de la ville de Québec<br/>
-Couverture médiatique (chronique radiophonique)<br/>
+Couverture médiatique (chroniques radiophoniques)<br/>
 Quotidenne spéciale, 8 et 14 juillet 2017<br/>
 
 * Zine des Simones, volume 1<br/>
