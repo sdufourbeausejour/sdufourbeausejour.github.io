@@ -27,9 +27,9 @@ Chéri(e), j'arrive !, 18 au 21 mai 2017<br/>
 
 * Jazz N'Broue<br/>
 Co-animation<br/>
-Chéri(e), j'arrive !, 21 octobre 2017<br/>
+Chéri(e), j'arrive !, 21 octobre 2016<br/>
 
 * Le 32e Festival international de musique actuelle de Victoriaville (FIMAV)<br/>
 Couverture médiatique (chroniques radiophoniques et articles de blogue)<br/>
-Chéri(e), j'arrive !, 19 au 22 mai 2017<br/>
+Chéri(e), j'arrive !, 19 au 22 mai 2016<br/>
 [Lire](http://chyz.ca/cherie-jarrive/fimav-32-jour-1/)
