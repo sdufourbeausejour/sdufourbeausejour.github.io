@@ -3,11 +3,7 @@
   <div class="wrapper">
 
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
 
-      </div>
-
-      <div class="footer-col footer-col-2">
         <ul class="contact-list">
           <center>
           <li>
@@ -16,9 +12,16 @@
             {% if site.email %}
             <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {% endif %}
+            <br/>
+            <span class="footer-line">
+            {% assign d = site.time | date: "%-d" %}{% assign m = site.time | date: "%B" %}
+            Generated on {{ m }} {% case d %} {% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ site.time | date: "%Y" }}.
+              Powered by <a href="https://jekyllrb.com">Jekyll</a>.
+              Hosted on <a href="https://github.com/sdufourbeausejour/website">github</a>.
+              Themed by <a href="https://twitter.com/SophieDBsjr">@SophieDBsjr</a>.
+            </span>
           </center>
         </ul>
-      </div>
 
 
   </div>

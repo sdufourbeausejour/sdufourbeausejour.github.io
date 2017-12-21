@@ -2,7 +2,7 @@
 
 Date formatting in french from Sylvain Durand : https://www.sylvaindurand.fr/rendre-jekyll-multilingue/
 
-Publications page formatting from Jean-Gabriel Young :
+Publications page formatting and footer from Jean-Gabriel Young :
 https://github.com/jg-you/jg-you.github.io
 
 # minima

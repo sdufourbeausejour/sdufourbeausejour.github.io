@@ -299,6 +299,13 @@ $white:            #ffffff !default;
   }
 }
 
+// Everything to do with footers
+.footer-line {
+  color: $grey-color;
+  font-size: 0.8*$small-font-size;
+}
+
+
 // Redefine span class; don't know if still necessary.
 // No wrap on lines inside span environment ?
 span {
