@@ -19,6 +19,10 @@ I've been involved in many outreach projects and activities throughout the years
 3 janvier 2017, France Culture (Paris, France)<br/>
 [Écouter](https://www.franceculture.fr/emissions/la-methode-scientifique/table-ronde-speciale-avec-quatre-jeunes-chercheurs-internationaux)
 
+* Les jeunes et le féminisme<br/>
+Émission : Première heure avec Claude Bernatchez<br/>
+8 mars 2016, ICI Première (Québec, Canada)<br/>
+
 * Observer la glace de mer à l'aide de l'imagerie satellitaire<br/>
 Émission : Futur simple<br/>
 4 février 2016, CKRL 89,1 FM (Québec, Canada)<br/>
@@ -30,8 +34,16 @@ I've been involved in many outreach projects and activities throughout the years
 #### <u>Outreach Activities</u>
 * Portes ouvertes de l'Université INRS<br/>
 Mission glace<br/>
-15 novembre 2017 (Québec, Canada)<br/>
+15 novembre 2017 (Université INRS, Québec, Canada)<br/>
 
 * Les filles et les sciences <br/>
 Mission glace<br/>
-18 mars 2017 (Québec, Canada)<br/>
+18 mars 2017 (Université Laval, Québec, Canada)<br/>
+
+* Les filles et les sciences <br/>
+Accompagnatrice<br/>
+12 mars 2016 (Université Laval, Québec, Canada)<br/>
+
+* Panelist : "Grad school and graduate student life"<br/>
+Canadian Conference for Undergraduate Women in Physics<br/>
+January 10th 2015 (Université Laval, Québec, Canada)<br/>
