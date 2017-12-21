@@ -14,19 +14,19 @@ $white:            #ffffff !default;
 .wrapper-content{
   @extend .wrapper;
   margin-top: 0px;
+  text-align: justify;
   //border-top: 1px solid $grey-color-light;
 }
-
 
 // Everything to do with posts
 // Class for the date format in the post title in a post list
 .small-date{
   font-weight: bold;
-  font-size: $small-font-size;
+  font-size: 1.1*$small-font-size;
   vertical-align: middle;
 }
 .medium-title{
-  font-size: $base-font-size;
+  font-size: 1*$base-font-size;
   //color : $grey-color-dark;
   vertical-align: middle;
 }
@@ -55,6 +55,7 @@ $white:            #ffffff !default;
   padding: 0px 0px 10px 0px;
   display: inline-block;
   vertical-align: middle;
+  font-size: 1.1*$base-font-size;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px transparent;
