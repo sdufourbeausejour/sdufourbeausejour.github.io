@@ -29,8 +29,9 @@ $white:            #ffffff !default;
   vertical-align: top;
   padding-right: 5px;
   @include media-query($on-palm) {
-      width: 110px;
-    }
+    padding-top: 1px;
+    width: 105px;
+  }
 }
 .medium-title{
   //padding-left: 5px;
