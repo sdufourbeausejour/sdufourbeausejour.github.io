@@ -253,11 +253,13 @@ $white:            #ffffff !default;
     position: relative;
 
     // Gaps between nav items,
-    margin-right: 25px;
-    margin-left: 25px;
+    @include media-query($on-laptop) {
+      margin-right: 25px;
+      margin-left: 25px;
+    }
     @include media-query($on-palm) {
       margin-right: 10px;
-      margin-left: 10px;      
+      margin-left: 10px;
     }
   }
 
