@@ -106,6 +106,8 @@
   margin-top: 0px;
   margin-bottom: 0px;
   z-index: 2;
+  float: right;
+
   .nav-trigger {
       display: none;
   }
@@ -145,14 +147,11 @@
     right:calc(50% - 0px);
     left:calc(50% - 0px);
   }
-
-  @include media-query($on-laptop) {
-    float: right;
-  }
   @include media-query($on-palm) {
     display: flex;
 		flexwrap: nowrap;
 		justify-content: center;
+    padding-bottom: 15px;
   //  position: absolute;
   //  top: 9px;
   //  right: $spacing-unit / 2;
