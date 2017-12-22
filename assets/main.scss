@@ -27,16 +27,18 @@ $white:            #ffffff !default;
   font-weight: bold;
   font-size: 1.1*$small-font-size;
   vertical-align: middle;
+  padding-right: 5px;
   @include media-query($on-palm) {
       width: 100px;
     }
 }
-
 .medium-title{
   //padding-left: 5px;
   font-size: 1*$base-font-size;
   //color : $grey-color-dark;
   vertical-align: middle;
+  //border-left: 1.5px solid $grey-color-dark;
+  padding-top: -5px;
 }
 // Class for tags in a post list
 .post-tags{
