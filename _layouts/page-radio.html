@@ -7,7 +7,7 @@ layout: radio
   {{ content }}
   </div>
   </br>
-  
+
   <ul class="post-list">
     {% for post in site.posts %}
       {% if post.categories contains "radio" %}
@@ -17,8 +17,7 @@ layout: radio
           <a class="hvr-underline-from-left" href="{{ post.url | relative_url }}">
             <table>
             <td class="small-date">{{date}}</td>
-            <td>{{ post.title | escape | prepend: " | "}}</td>
-          </table>
+          <td class="medium-title">{{ post.title | escape | prepend: " | "}}</td>          </table>
           </a>
 
           <div>
