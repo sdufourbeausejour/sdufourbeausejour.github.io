@@ -43,6 +43,9 @@
    background-position: -0px -120px;
    // Positioning context for the mobile navigation icon
    position: relative;
+   @include media-query($on-palm) {
+     padding-top: 50px;
+   }
  }
 .site-header-with-inner-nav .site-header-image-science {
   background: url(/img/polynie.jpg);
@@ -56,7 +59,7 @@
   position: relative;
   // Mobile version
   @include media-query($on-palm) {
-    vertical-align: bottom;
+    padding-top: 50px;
   }
 }
 .site-header .site-header-image-home {
