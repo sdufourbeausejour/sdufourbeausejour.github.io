@@ -6,6 +6,11 @@
    min-height: $spacing-unit * 1.865;
    // Positioning context for the mobile navigation icon
    position: relative;
+
+   // Mobile version
+   @include media-query($on-palm) {
+     height: 350px;
+   }
  }
  .site-header .site-header-image {
    background: url(/img/Salluit.jpg);
@@ -45,6 +50,10 @@
   background-position: -0px -130px;
   // Positioning context for the mobile navigation icon
   position: relative;
+  // Mobile version
+  @include media-query($on-palm) {
+    vertical-align: bottom;
+  }
 }
 .site-header .site-header-image-home {
   background: url(/img/Kangiqsujuaq.jpg);
