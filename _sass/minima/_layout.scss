@@ -222,10 +222,6 @@
 .social-media-list {
   list-style: none;
   margin-left: 0;
-  @include media-query($on-palm) {
-    justify-content: center;
-    text-align: center;
-  }
 }
 
 .footer-col-wrapper {

@@ -135,6 +135,10 @@ $white:            #ffffff !default;
   li + li {
       padding-top: 5px;
     }
+  @include media-query($on-palm) {
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 // Secondary nav-bar formatting
