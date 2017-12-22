@@ -16,8 +16,9 @@ layout: radio
           {% assign date = post.date | date: date_format %}
           <a class="hvr-underline-from-left" href="{{ post.url | relative_url }}">
             <table>
-            <td class="small-date">{{date}}</td>
-          <td class="medium-title">{{ post.title | escape | prepend: " | "}}</td>          </table>
+              <td class="small-date">{{ date | escape | append: " · "}}</td>
+              <td class="medium-title">{{ post.title}}</td>
+            </table>
           </a>
 
           <div>
