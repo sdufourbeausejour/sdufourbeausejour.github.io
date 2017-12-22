@@ -139,6 +139,8 @@
   }
 
   @include media-query($on-palm) {
+    float: left;
+
   //  position: absolute;
   //  top: 9px;
   //  right: $spacing-unit / 2;
