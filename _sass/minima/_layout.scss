@@ -99,6 +99,8 @@
   }
   @include media-query($on-palm) {
     justify-content: center;
+    text-align: center;
+    display: inline-block;
   }
 }
 
