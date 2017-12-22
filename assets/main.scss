@@ -14,8 +14,11 @@ $white:            #ffffff !default;
 .wrapper-content{
   @extend .wrapper;
   margin-top: 0px;
-  text-align: justify;
+  //text-align: justify;
   //border-top: 1px solid $grey-color-light;
+}
+.wrapper-content-before-post{
+  text-align: justify;
 }
 
 // Everything to do with posts

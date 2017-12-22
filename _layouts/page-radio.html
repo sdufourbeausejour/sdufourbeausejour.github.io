@@ -3,8 +3,11 @@ layout: radio
 ---
 <div class="home">
 
+  <div class="wrapper-content-before-post">
   {{ content }}
-
+  </div>
+  </br>
+  
   <ul class="post-list">
     {% for post in site.posts %}
       {% if post.categories contains "radio" %}
