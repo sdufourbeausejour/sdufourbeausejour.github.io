@@ -2,11 +2,15 @@
  * Site header
  */
  .site-header {
+   min-height: $spacing-unit * 1.865;
+   // Positioning context for the mobile navigation icon
+   position: relative;
+ }
+ .site-header-with-inner-nav{
    //border-bottom: 1px solid $grey-color-light;
    min-height: $spacing-unit * 1.865;
    // Positioning context for the mobile navigation icon
    position: relative;
-
    // Mobile version
    @include media-query($on-palm) {
      height: 450px;
@@ -29,7 +33,7 @@
  .site-header .site-header-image:hover {
    //opacity: 0.85;
  }
- .site-header .site-header-image-radio {
+ .site-header-with-inner-nav .site-header-image-radio {
    background: url(/img/les-simones-team.jpg);
    background-repeat: no-repeat;
    // Big enough size that image overflows on sides
@@ -40,7 +44,7 @@
    // Positioning context for the mobile navigation icon
    position: relative;
  }
-.site-header .site-header-image-science {
+.site-header-with-inner-nav .site-header-image-science {
   background: url(/img/polynie.jpg);
   background-repeat: no-repeat;
   // Big enough size that image overflows on sides
