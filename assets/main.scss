@@ -27,8 +27,11 @@ $white:            #ffffff !default;
   font-weight: bold;
   font-size: 1.1*$small-font-size;
   vertical-align: middle;
-  width: 85px;
+  @include media-query($on-palm) {
+      width: 100px;
+    }
 }
+
 .medium-title{
   padding-left: 5px;
   font-size: 1*$base-font-size;
