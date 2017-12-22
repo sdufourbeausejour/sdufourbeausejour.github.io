@@ -98,6 +98,9 @@
     float: left;
   }
   @include media-query($on-palm) {
+    float: none;
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));
     justify-content: center;
     text-align: center;
     display: inline-block;
