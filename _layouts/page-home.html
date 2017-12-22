@@ -21,7 +21,8 @@ layout: home
         <a class="hvr-underline-from-left" href="{{ post.url | relative_url }}">
           <table>
           <td class="small-date">{{date}}</td>
-          <td>{{ post.title | escape | prepend: " | "}}</td>
+          <td>{{" | "}}</td>
+          <td class="medium-title">{{post.title}}</td>
         </table>
         </a>
 
