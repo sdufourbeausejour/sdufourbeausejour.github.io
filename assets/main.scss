@@ -255,10 +255,16 @@ $white:            #ffffff !default;
     // Gaps between nav items,
     margin-right: 25px;
     margin-left: 25px;
+    @include media-query($on-palm) {
+      margin-right: 10px;
+      margin-left: 10px;      
+    }
   }
 
   @include media-query($on-palm) {
-
+    display: flex;
+		flexwrap: nowrap;
+		justify-content: center;
     //position: absolute;
     //top: 9px;
     //right: $spacing-unit / 2;

@@ -91,6 +91,9 @@
   &:visited {
     color: $text-color;
   }
+  @include media-query($on-palm) {
+    justify-content: center;
+  }
 }
 
 .site-nav {
@@ -139,8 +142,9 @@
   }
 
   @include media-query($on-palm) {
-    float: left;
-
+    display: flex;
+		flexwrap: nowrap;
+		justify-content: center;
   //  position: absolute;
   //  top: 9px;
   //  right: $spacing-unit / 2;
@@ -210,6 +214,9 @@
 .social-media-list {
   list-style: none;
   margin-left: 0;
+  @include media-query($on-palm) {
+    justify-content: center;
+  }
 }
 
 .footer-col-wrapper {
