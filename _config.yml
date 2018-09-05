@@ -36,9 +36,13 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 include: ['_pages']
 relative_permalinks: false
+
+social:
+    name: Sophie Dufour-Beausejour
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
