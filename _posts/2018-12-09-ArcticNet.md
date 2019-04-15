@@ -19,6 +19,7 @@ See you in Ottawa!
 [Radio-Project]:https://sdufourbeausejour.github.io/science/2018/12/12/RadioProject.html
 [ASM2018]:http://www.arcticnetmeetings.ca/asm2018/
 [GMAC]:https://www.gwynethmacmillan.com
+[CG]:https://catherine-girard.com
 
 [Ice-monitoring]:https://www.facebook.com/IceMonitoringNunavik
 [NRC]:http://www.makivik.org/nunavik-research-centre/
